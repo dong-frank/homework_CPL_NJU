@@ -101,6 +101,39 @@ build 1-types-io/ASCII.exe: C_EXECUTABLE_LINKER__ASCII_Debug 1-types-io/CMakeFil
   TARGET_IMPLIB = 1-types-io\libASCII.dll.a
   TARGET_PDB = ASCII.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Change
+
+
+#############################################
+# Order-only phony target for Change
+
+build cmake_object_order_depends_target_Change: phony || 1-types-io/CMakeFiles/Change.dir
+
+build 1-types-io/CMakeFiles/Change.dir/Change.c.obj: C_COMPILER__Change_unscanned_Debug D$:/Freshman/cpl/homework/1-types-io/Change.c || cmake_object_order_depends_target_Change
+  DEP_FILE = 1-types-io\CMakeFiles\Change.dir\Change.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\Change.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\Change.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Change
+
+
+#############################################
+# Link the executable 1-types-io\Change.exe
+
+build 1-types-io/Change.exe: C_EXECUTABLE_LINKER__Change_Debug 1-types-io/CMakeFiles/Change.dir/Change.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\Change.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\Change.exe
+  TARGET_IMPLIB = 1-types-io\libChange.dll.a
+  TARGET_PDB = Change.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -131,6 +164,10 @@ build ASCII: phony 1-types-io/ASCII.exe
 
 build ASCII.exe: phony 1-types-io/ASCII.exe
 
+build Change: phony 1-types-io/Change.exe
+
+build Change.exe: phony 1-types-io/Change.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -146,7 +183,7 @@ build all: phony 1-types-io/all
 #############################################
 # Folder: D:/Freshman/cpl/homework/cmake-build-debug/1-types-io
 
-build 1-types-io/all: phony 1-types-io/ASCII.exe
+build 1-types-io/all: phony 1-types-io/ASCII.exe 1-types-io/Change.exe
 
 # =============================================================================
 # Built-in targets
