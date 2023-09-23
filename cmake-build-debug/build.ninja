@@ -134,6 +134,39 @@ build 1-types-io/Change.exe: C_EXECUTABLE_LINKER__Change_Debug 1-types-io/CMakeF
   TARGET_IMPLIB = 1-types-io\libChange.dll.a
   TARGET_PDB = Change.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Pi
+
+
+#############################################
+# Order-only phony target for Pi
+
+build cmake_object_order_depends_target_Pi: phony || 1-types-io/CMakeFiles/Pi.dir
+
+build 1-types-io/CMakeFiles/Pi.dir/Pi.c.obj: C_COMPILER__Pi_unscanned_Debug D$:/Freshman/cpl/homework/1-types-io/Pi.c || cmake_object_order_depends_target_Pi
+  DEP_FILE = 1-types-io\CMakeFiles\Pi.dir\Pi.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\Pi.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\Pi.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pi
+
+
+#############################################
+# Link the executable 1-types-io\Pi.exe
+
+build 1-types-io/Pi.exe: C_EXECUTABLE_LINKER__Pi_Debug 1-types-io/CMakeFiles/Pi.dir/Pi.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\Pi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\Pi.exe
+  TARGET_IMPLIB = 1-types-io\libPi.dll.a
+  TARGET_PDB = Pi.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -168,6 +201,10 @@ build Change: phony 1-types-io/Change.exe
 
 build Change.exe: phony 1-types-io/Change.exe
 
+build Pi: phony 1-types-io/Pi.exe
+
+build Pi.exe: phony 1-types-io/Pi.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -183,7 +220,7 @@ build all: phony 1-types-io/all
 #############################################
 # Folder: D:/Freshman/cpl/homework/cmake-build-debug/1-types-io
 
-build 1-types-io/all: phony 1-types-io/ASCII.exe 1-types-io/Change.exe
+build 1-types-io/all: phony 1-types-io/ASCII.exe 1-types-io/Change.exe 1-types-io/Pi.exe
 
 # =============================================================================
 # Built-in targets
