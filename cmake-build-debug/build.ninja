@@ -167,6 +167,39 @@ build 1-types-io/Pi.exe: C_EXECUTABLE_LINKER__Pi_Debug 1-types-io/CMakeFiles/Pi.
   TARGET_IMPLIB = 1-types-io\libPi.dll.a
   TARGET_PDB = Pi.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Time
+
+
+#############################################
+# Order-only phony target for Time
+
+build cmake_object_order_depends_target_Time: phony || 1-types-io/CMakeFiles/Time.dir
+
+build 1-types-io/CMakeFiles/Time.dir/Time.c.obj: C_COMPILER__Time_unscanned_Debug D$:/Freshman/cpl/homework/1-types-io/Time.c || cmake_object_order_depends_target_Time
+  DEP_FILE = 1-types-io\CMakeFiles\Time.dir\Time.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\Time.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\Time.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Time
+
+
+#############################################
+# Link the executable 1-types-io\Time.exe
+
+build 1-types-io/Time.exe: C_EXECUTABLE_LINKER__Time_Debug 1-types-io/CMakeFiles/Time.dir/Time.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\Time.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\Time.exe
+  TARGET_IMPLIB = 1-types-io\libTime.dll.a
+  TARGET_PDB = Time.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -205,6 +238,10 @@ build Pi: phony 1-types-io/Pi.exe
 
 build Pi.exe: phony 1-types-io/Pi.exe
 
+build Time: phony 1-types-io/Time.exe
+
+build Time.exe: phony 1-types-io/Time.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -220,7 +257,7 @@ build all: phony 1-types-io/all
 #############################################
 # Folder: D:/Freshman/cpl/homework/cmake-build-debug/1-types-io
 
-build 1-types-io/all: phony 1-types-io/ASCII.exe 1-types-io/Change.exe 1-types-io/Pi.exe
+build 1-types-io/all: phony 1-types-io/ASCII.exe 1-types-io/Change.exe 1-types-io/Pi.exe 1-types-io/Time.exe
 
 # =============================================================================
 # Built-in targets
