@@ -1,0 +1,5 @@
+D:/Freshman/cpl/homework/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Freshman/cpl/homework/cmake-build-debug/1-types-io/CMakeFiles/ASCII.dir
+D:/Freshman/cpl/homework/cmake-build-debug/1-types-io/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/cmake-build-debug/1-types-io/CMakeFiles/rebuild_cache.dir
