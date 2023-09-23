@@ -266,6 +266,39 @@ build 1-types-io/Gravity.exe: C_EXECUTABLE_LINKER__Gravity_Debug 1-types-io/CMak
   TARGET_IMPLIB = 1-types-io\libGravity.dll.a
   TARGET_PDB = Gravity.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Equation
+
+
+#############################################
+# Order-only phony target for Equation
+
+build cmake_object_order_depends_target_Equation: phony || 1-types-io/CMakeFiles/Equation.dir
+
+build 1-types-io/CMakeFiles/Equation.dir/Equation.c.obj: C_COMPILER__Equation_unscanned_Debug D$:/Freshman/cpl/homework/1-types-io/Equation.c || cmake_object_order_depends_target_Equation
+  DEP_FILE = 1-types-io\CMakeFiles\Equation.dir\Equation.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = 1-types-io\CMakeFiles\Equation.dir
+  OBJECT_FILE_DIR = 1-types-io\CMakeFiles\Equation.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Equation
+
+
+#############################################
+# Link the executable 1-types-io\Equation.exe
+
+build 1-types-io/Equation.exe: C_EXECUTABLE_LINKER__Equation_Debug 1-types-io/CMakeFiles/Equation.dir/Equation.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 1-types-io\CMakeFiles\Equation.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1-types-io\Equation.exe
+  TARGET_IMPLIB = 1-types-io\libEquation.dll.a
+  TARGET_PDB = Equation.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -300,6 +333,10 @@ build Change: phony 1-types-io/Change.exe
 
 build Change.exe: phony 1-types-io/Change.exe
 
+build Equation: phony 1-types-io/Equation.exe
+
+build Equation.exe: phony 1-types-io/Equation.exe
+
 build Gravity: phony 1-types-io/Gravity.exe
 
 build Gravity.exe: phony 1-types-io/Gravity.exe
@@ -331,7 +368,7 @@ build all: phony 1-types-io/all
 #############################################
 # Folder: D:/Freshman/cpl/homework/cmake-build-debug/1-types-io
 
-build 1-types-io/all: phony 1-types-io/ASCII.exe 1-types-io/Change.exe 1-types-io/Pi.exe 1-types-io/Time.exe 1-types-io/Julian.exe 1-types-io/Gravity.exe
+build 1-types-io/all: phony 1-types-io/ASCII.exe 1-types-io/Change.exe 1-types-io/Pi.exe 1-types-io/Time.exe 1-types-io/Julian.exe 1-types-io/Gravity.exe 1-types-io/Equation.exe
 
 # =============================================================================
 # Built-in targets
