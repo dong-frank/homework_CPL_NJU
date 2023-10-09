@@ -1,0 +1,9 @@
+D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug/CMakeFiles/single.dir
+D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug/CMakeFiles/factorial.dir
+D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug/CMakeFiles/temp.dir
+D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug/CMakeFiles/series.dir
+D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug/CMakeFiles/collatz.dir
+D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug/CMakeFiles/Inverse.dir
+D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug/CMakeFiles/standup.dir
+D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug/CMakeFiles/rebuild_cache.dir

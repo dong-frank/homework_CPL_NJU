@@ -15,6 +15,9 @@ int main (void){
 
     first_number= cbrt(- (q/2.0) + sqrt((q/2.0) * (q/2.0) + (p/3.0) * (p/3.0) * (p/3.0)));
     second_number= cbrt(- (q/2.0) - sqrt((q/2.0) * (q/2.0) + (p/3.0) * (p/3.0) * (p/3.0)));
+    /*
+     * (p/3)^3>-(q/2)^2
+     */
     x_1= first_number + second_number;
 
     printf("%.3f",x_1);
