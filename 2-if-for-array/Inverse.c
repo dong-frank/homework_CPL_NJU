@@ -6,7 +6,7 @@
 int main(void) {
     int n;
     int k;
-    char words[10000000];
+    char words[10000];
 
     scanf("%d", &n);
     getchar();

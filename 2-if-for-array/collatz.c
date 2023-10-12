@@ -17,10 +17,11 @@ int main(void) {
         } else {
             num = 3 * num + 1;
             steps += 1;
-            if (num > max) {
-                max = num;
-            }
         }
+        if (num > max) {
+            max = num;
+        }
+
     }
     printf("%d %d", steps, max);
     return 0;
