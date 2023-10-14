@@ -1,0 +1,92 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "b-ternary-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-b-ternary-1-Debug-481b8ec62bab65720f80.json",
+					"name" : "b-ternary-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flip-Debug-41a2b811263e52752056.json",
+					"name" : "flip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "josephus::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-josephus-Debug-4fd277ef9aca79a6450e.json",
+					"name" : "josephus",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "palindrome-1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-palindrome-1-Debug-0452a508f8e4048843bc.json",
+					"name" : "palindrome-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "temp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-temp-Debug-442bff9b42ab5b121b26.json",
+					"name" : "temp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug",
+		"source" : "D:/Freshman/cpl/homework/3-for-a-while"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

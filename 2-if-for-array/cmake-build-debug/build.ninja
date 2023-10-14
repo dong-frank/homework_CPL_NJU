@@ -271,39 +271,6 @@ build standup.exe: C_EXECUTABLE_LINKER__standup_Debug CMakeFiles/standup.dir/sta
   TARGET_IMPLIB = libstandup.dll.a
   TARGET_PDB = standup.exe.dbg
 
-# =============================================================================
-# Object build statements for EXECUTABLE target factorial_2
-
-
-#############################################
-# Order-only phony target for factorial_2
-
-build cmake_object_order_depends_target_factorial_2: phony || CMakeFiles/factorial_2.dir
-
-build CMakeFiles/factorial_2.dir/factorial_2.c.obj: C_COMPILER__factorial_2_unscanned_Debug D$:/Freshman/cpl/homework/2-if-for-array/factorial_2.c || cmake_object_order_depends_target_factorial_2
-  DEP_FILE = CMakeFiles\factorial_2.dir\factorial_2.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\factorial_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\factorial_2.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target factorial_2
-
-
-#############################################
-# Link the executable factorial_2.exe
-
-build factorial_2.exe: C_EXECUTABLE_LINKER__factorial_2_Debug CMakeFiles/factorial_2.dir/factorial_2.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\factorial_2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = factorial_2.exe
-  TARGET_IMPLIB = libfactorial_2.dll.a
-  TARGET_PDB = factorial_2.exe.dbg
-
 
 #############################################
 # Utility command for edit_cache
@@ -336,8 +303,6 @@ build collatz: phony collatz.exe
 
 build factorial: phony factorial.exe
 
-build factorial_2: phony factorial_2.exe
-
 build series: phony series.exe
 
 build single: phony single.exe
@@ -354,7 +319,7 @@ build temp: phony temp.exe
 #############################################
 # Folder: D:/Freshman/cpl/homework/2-if-for-array/cmake-build-debug
 
-build all: phony single.exe factorial.exe temp.exe series.exe collatz.exe Inverse.exe standup.exe factorial_2.exe
+build all: phony single.exe factorial.exe temp.exe series.exe collatz.exe Inverse.exe standup.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.
