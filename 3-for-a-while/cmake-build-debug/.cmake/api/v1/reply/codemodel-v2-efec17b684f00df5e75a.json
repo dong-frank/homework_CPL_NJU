@@ -15,7 +15,9 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					]
 				}
 			],
@@ -34,7 +36,9 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6
 					]
 				}
 			],
@@ -45,6 +49,20 @@
 					"id" : "b-ternary-1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-b-ternary-1-Debug-481b8ec62bab65720f80.json",
 					"name" : "b-ternary-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "b-ternary-2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-b-ternary-2-Debug-7e9ee59f8ad154f2e096.json",
+					"name" : "b-ternary-2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bubble-sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bubble-sort-Debug-44131ae072e1040b8dbb.json",
+					"name" : "bubble-sort",
 					"projectIndex" : 0
 				},
 				{

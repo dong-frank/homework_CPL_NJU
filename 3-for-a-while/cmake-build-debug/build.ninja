@@ -205,6 +205,72 @@ build josephus.exe: C_EXECUTABLE_LINKER__josephus_Debug CMakeFiles/josephus.dir/
   TARGET_IMPLIB = libjosephus.dll.a
   TARGET_PDB = josephus.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target b-ternary-2
+
+
+#############################################
+# Order-only phony target for b-ternary-2
+
+build cmake_object_order_depends_target_b-ternary-2: phony || CMakeFiles/b-ternary-2.dir
+
+build CMakeFiles/b-ternary-2.dir/b-ternary-2.c.obj: C_COMPILER__b-ternary-2_unscanned_Debug D$:/Freshman/cpl/homework/3-for-a-while/b-ternary-2.c || cmake_object_order_depends_target_b-ternary-2
+  DEP_FILE = CMakeFiles\b-ternary-2.dir\b-ternary-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\b-ternary-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\b-ternary-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target b-ternary-2
+
+
+#############################################
+# Link the executable b-ternary-2.exe
+
+build b-ternary-2.exe: C_EXECUTABLE_LINKER__b-ternary-2_Debug CMakeFiles/b-ternary-2.dir/b-ternary-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\b-ternary-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = b-ternary-2.exe
+  TARGET_IMPLIB = libb-ternary-2.dll.a
+  TARGET_PDB = b-ternary-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bubble-sort
+
+
+#############################################
+# Order-only phony target for bubble-sort
+
+build cmake_object_order_depends_target_bubble-sort: phony || CMakeFiles/bubble-sort.dir
+
+build CMakeFiles/bubble-sort.dir/bubble-sort.c.obj: C_COMPILER__bubble-sort_unscanned_Debug D$:/Freshman/cpl/homework/3-for-a-while/bubble-sort.c || cmake_object_order_depends_target_bubble-sort
+  DEP_FILE = CMakeFiles\bubble-sort.dir\bubble-sort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\bubble-sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\bubble-sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bubble-sort
+
+
+#############################################
+# Link the executable bubble-sort.exe
+
+build bubble-sort.exe: C_EXECUTABLE_LINKER__bubble-sort_Debug CMakeFiles/bubble-sort.dir/bubble-sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\bubble-sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = bubble-sort.exe
+  TARGET_IMPLIB = libbubble-sort.dll.a
+  TARGET_PDB = bubble-sort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -233,6 +299,10 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build b-ternary-1: phony b-ternary-1.exe
 
+build b-ternary-2: phony b-ternary-2.exe
+
+build bubble-sort: phony bubble-sort.exe
+
 build flip: phony flip.exe
 
 build josephus: phony josephus.exe
@@ -249,7 +319,7 @@ build temp: phony temp.exe
 #############################################
 # Folder: D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug
 
-build all: phony palindrome-1.exe flip.exe temp.exe b-ternary-1.exe josephus.exe
+build all: phony palindrome-1.exe flip.exe temp.exe b-ternary-1.exe josephus.exe b-ternary-2.exe bubble-sort.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

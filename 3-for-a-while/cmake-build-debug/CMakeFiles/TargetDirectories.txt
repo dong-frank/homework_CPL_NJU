@@ -3,5 +3,7 @@ D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/flip.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/temp.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/b-ternary-1.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/josephus.dir
+D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/b-ternary-2.dir
+D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/bubble-sort.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/rebuild_cache.dir
