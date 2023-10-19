@@ -17,7 +17,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -63,6 +65,13 @@
 					"id" : "bubble-sort::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-bubble-sort-Debug-44131ae072e1040b8dbb.json",
 					"name" : "bubble-sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "decimal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decimal-Debug-6a22c65b33585f2a7734.json",
+					"name" : "decimal",
 					"projectIndex" : 0
 				},
 				{

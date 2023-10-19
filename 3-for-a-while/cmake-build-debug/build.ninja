@@ -271,6 +271,39 @@ build bubble-sort.exe: C_EXECUTABLE_LINKER__bubble-sort_Debug CMakeFiles/bubble-
   TARGET_IMPLIB = libbubble-sort.dll.a
   TARGET_PDB = bubble-sort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target decimal
+
+
+#############################################
+# Order-only phony target for decimal
+
+build cmake_object_order_depends_target_decimal: phony || CMakeFiles/decimal.dir
+
+build CMakeFiles/decimal.dir/decimal.c.obj: C_COMPILER__decimal_unscanned_Debug D$:/Freshman/cpl/homework/3-for-a-while/decimal.c || cmake_object_order_depends_target_decimal
+  DEP_FILE = CMakeFiles\decimal.dir\decimal.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\decimal.dir
+  OBJECT_FILE_DIR = CMakeFiles\decimal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target decimal
+
+
+#############################################
+# Link the executable decimal.exe
+
+build decimal.exe: C_EXECUTABLE_LINKER__decimal_Debug CMakeFiles/decimal.dir/decimal.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\decimal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = decimal.exe
+  TARGET_IMPLIB = libdecimal.dll.a
+  TARGET_PDB = decimal.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -303,6 +336,8 @@ build b-ternary-2: phony b-ternary-2.exe
 
 build bubble-sort: phony bubble-sort.exe
 
+build decimal: phony decimal.exe
+
 build flip: phony flip.exe
 
 build josephus: phony josephus.exe
@@ -319,7 +354,7 @@ build temp: phony temp.exe
 #############################################
 # Folder: D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug
 
-build all: phony palindrome-1.exe flip.exe temp.exe b-ternary-1.exe josephus.exe b-ternary-2.exe bubble-sort.exe
+build all: phony palindrome-1.exe flip.exe temp.exe b-ternary-1.exe josephus.exe b-ternary-2.exe bubble-sort.exe decimal.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

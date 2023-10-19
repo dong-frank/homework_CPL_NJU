@@ -13,21 +13,30 @@ int main(void) {
     int next[1000] = {0};
     int live_people = n;
     int is_death[1000] = {0};
-    int j = 1;
+    int i;
+    int temp = 0;
     while (live_people > 1) {//i表示报数，j表示编号
-
-        for (int i = 1;; i++) {
-            while (is_death[j % n] == 1) {
+        i = temp + 1;
+        //模拟报数过程
+        for (int j = 1;; j++, i++) {
+            while (is_death[j] == 1) {
                 j++;
             }
-            next[j % n] = i;
-
-            if (next[j % n] % k == 0) {
-                live_people--;
-                is_death[j % n] = 1;
+            if (j > n) {
+                temp = i - 1;
                 break;
             }
-            j++;
+            next[j] = i;
+
+            if (next[j] % k == 0) {
+                live_people--;
+                is_death[j] = 1;
+                i = 0;
+            }
+            if (j == n) {
+                temp = i;
+                break;
+            }
         }
     }
     for (int m = 1; m <= n; m++) {
