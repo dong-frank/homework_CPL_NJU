@@ -304,6 +304,72 @@ build decimal.exe: C_EXECUTABLE_LINKER__decimal_Debug CMakeFiles/decimal.dir/dec
   TARGET_IMPLIB = libdecimal.dll.a
   TARGET_PDB = decimal.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target palindrome-2.c
+
+
+#############################################
+# Order-only phony target for palindrome-2.c
+
+build cmake_object_order_depends_target_palindrome-2.c: phony || CMakeFiles/palindrome-2.c.dir
+
+build CMakeFiles/palindrome-2.c.dir/palindrome-2.c.obj: C_COMPILER__palindrome-2.2ec_unscanned_Debug D$:/Freshman/cpl/homework/3-for-a-while/palindrome-2.c || cmake_object_order_depends_target_palindrome-2.c
+  DEP_FILE = CMakeFiles\palindrome-2.c.dir\palindrome-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\palindrome-2.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\palindrome-2.c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target palindrome-2.c
+
+
+#############################################
+# Link the executable palindrome-2.c.exe
+
+build palindrome-2.c.exe: C_EXECUTABLE_LINKER__palindrome-2.2ec_Debug CMakeFiles/palindrome-2.c.dir/palindrome-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\palindrome-2.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = palindrome-2.c.exe
+  TARGET_IMPLIB = libpalindrome-2.c.dll.a
+  TARGET_PDB = palindrome-2.c.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quick-sort
+
+
+#############################################
+# Order-only phony target for quick-sort
+
+build cmake_object_order_depends_target_quick-sort: phony || CMakeFiles/quick-sort.dir
+
+build CMakeFiles/quick-sort.dir/quick-sort.c.obj: C_COMPILER__quick-sort_unscanned_Debug D$:/Freshman/cpl/homework/3-for-a-while/quick-sort.c || cmake_object_order_depends_target_quick-sort
+  DEP_FILE = CMakeFiles\quick-sort.dir\quick-sort.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\quick-sort.dir
+  OBJECT_FILE_DIR = CMakeFiles\quick-sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quick-sort
+
+
+#############################################
+# Link the executable quick-sort.exe
+
+build quick-sort.exe: C_EXECUTABLE_LINKER__quick-sort_Debug CMakeFiles/quick-sort.dir/quick-sort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\quick-sort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = quick-sort.exe
+  TARGET_IMPLIB = libquick-sort.dll.a
+  TARGET_PDB = quick-sort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -344,6 +410,10 @@ build josephus: phony josephus.exe
 
 build palindrome-1: phony palindrome-1.exe
 
+build palindrome-2.c: phony palindrome-2.c.exe
+
+build quick-sort: phony quick-sort.exe
+
 build temp: phony temp.exe
 
 # =============================================================================
@@ -354,7 +424,7 @@ build temp: phony temp.exe
 #############################################
 # Folder: D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug
 
-build all: phony palindrome-1.exe flip.exe temp.exe b-ternary-1.exe josephus.exe b-ternary-2.exe bubble-sort.exe decimal.exe
+build all: phony palindrome-1.exe flip.exe temp.exe b-ternary-1.exe josephus.exe b-ternary-2.exe bubble-sort.exe decimal.exe palindrome-2.c.exe quick-sort.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

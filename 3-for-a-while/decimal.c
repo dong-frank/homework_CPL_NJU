@@ -11,7 +11,7 @@ int main(void) {
     scanf("%d", &n);
     getchar();
     //输入n进制数
-    char number[1000] = {' '};
+    char number[1000] = "";
     for (int i = 0; i < length; i++) {
         number[i] = getchar();
     }

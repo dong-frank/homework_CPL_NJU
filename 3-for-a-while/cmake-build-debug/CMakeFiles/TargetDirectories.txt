@@ -6,5 +6,7 @@ D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/josephus.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/b-ternary-2.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/bubble-sort.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/decimal.dir
+D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/palindrome-2.c.dir
+D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/quick-sort.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug/CMakeFiles/rebuild_cache.dir

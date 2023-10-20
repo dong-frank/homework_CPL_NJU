@@ -18,7 +18,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				}
 			],
@@ -40,7 +42,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				}
 			],
@@ -93,6 +97,20 @@
 					"id" : "palindrome-1::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-palindrome-1-Debug-0452a508f8e4048843bc.json",
 					"name" : "palindrome-1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "palindrome-2.c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-palindrome-2.c-Debug-151b1401f6bd83dc86ad.json",
+					"name" : "palindrome-2.c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quick-sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quick-sort-Debug-5a64b2abe24a5b77ce71.json",
+					"name" : "quick-sort",
 					"projectIndex" : 0
 				},
 				{
