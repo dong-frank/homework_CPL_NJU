@@ -1,0 +1,6 @@
+add_executable(matrix-mult matrix-mult.c)
+add_executable(formation formation.c)
+add_executable(sudoku sudoku.c)
+add_executable(mines mines.c)
+add_executable(trace trace.c)
+add_executable(statistics statistics.c)

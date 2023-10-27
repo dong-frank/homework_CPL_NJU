@@ -1,0 +1,8 @@
+D:/Freshman/cpl/homework/4-loops/cmake-build-debug/CMakeFiles/matrix-mult.dir
+D:/Freshman/cpl/homework/4-loops/cmake-build-debug/CMakeFiles/formation.dir
+D:/Freshman/cpl/homework/4-loops/cmake-build-debug/CMakeFiles/sudoku.dir
+D:/Freshman/cpl/homework/4-loops/cmake-build-debug/CMakeFiles/mines.dir
+D:/Freshman/cpl/homework/4-loops/cmake-build-debug/CMakeFiles/trace.dir
+D:/Freshman/cpl/homework/4-loops/cmake-build-debug/CMakeFiles/statistics.dir
+D:/Freshman/cpl/homework/4-loops/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/4-loops/cmake-build-debug/CMakeFiles/rebuild_cache.dir
