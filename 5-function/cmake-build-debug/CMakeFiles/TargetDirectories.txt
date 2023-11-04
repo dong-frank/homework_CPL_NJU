@@ -1,0 +1,10 @@
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/behaviors.dir
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/sum.dir
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/magic-square.dir
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/absolute-prime.dir
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/radix.dir
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/pair.dir
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/next-permutation.dir
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/temp.dir
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/5-function/cmake-build-debug/CMakeFiles/rebuild_cache.dir

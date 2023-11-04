@@ -370,6 +370,72 @@ build quick-sort.exe: C_EXECUTABLE_LINKER__quick-sort_Debug CMakeFiles/quick-sor
   TARGET_IMPLIB = libquick-sort.dll.a
   TARGET_PDB = quick-sort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target quick-sort-answer
+
+
+#############################################
+# Order-only phony target for quick-sort-answer
+
+build cmake_object_order_depends_target_quick-sort-answer: phony || CMakeFiles/quick-sort-answer.dir
+
+build CMakeFiles/quick-sort-answer.dir/quick-sort-answer.c.obj: C_COMPILER__quick-sort-answer_unscanned_Debug D$:/Freshman/cpl/homework/3-for-a-while/quick-sort-answer.c || cmake_object_order_depends_target_quick-sort-answer
+  DEP_FILE = CMakeFiles\quick-sort-answer.dir\quick-sort-answer.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\quick-sort-answer.dir
+  OBJECT_FILE_DIR = CMakeFiles\quick-sort-answer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quick-sort-answer
+
+
+#############################################
+# Link the executable quick-sort-answer.exe
+
+build quick-sort-answer.exe: C_EXECUTABLE_LINKER__quick-sort-answer_Debug CMakeFiles/quick-sort-answer.dir/quick-sort-answer.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\quick-sort-answer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = quick-sort-answer.exe
+  TARGET_IMPLIB = libquick-sort-answer.dll.a
+  TARGET_PDB = quick-sort-answer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target josephus-answer
+
+
+#############################################
+# Order-only phony target for josephus-answer
+
+build cmake_object_order_depends_target_josephus-answer: phony || CMakeFiles/josephus-answer.dir
+
+build CMakeFiles/josephus-answer.dir/josephus-answer.c.obj: C_COMPILER__josephus-answer_unscanned_Debug D$:/Freshman/cpl/homework/3-for-a-while/josephus-answer.c || cmake_object_order_depends_target_josephus-answer
+  DEP_FILE = CMakeFiles\josephus-answer.dir\josephus-answer.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\josephus-answer.dir
+  OBJECT_FILE_DIR = CMakeFiles\josephus-answer.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target josephus-answer
+
+
+#############################################
+# Link the executable josephus-answer.exe
+
+build josephus-answer.exe: C_EXECUTABLE_LINKER__josephus-answer_Debug CMakeFiles/josephus-answer.dir/josephus-answer.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\josephus-answer.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = josephus-answer.exe
+  TARGET_IMPLIB = libjosephus-answer.dll.a
+  TARGET_PDB = josephus-answer.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -408,11 +474,15 @@ build flip: phony flip.exe
 
 build josephus: phony josephus.exe
 
+build josephus-answer: phony josephus-answer.exe
+
 build palindrome-1: phony palindrome-1.exe
 
 build palindrome-2.c: phony palindrome-2.c.exe
 
 build quick-sort: phony quick-sort.exe
+
+build quick-sort-answer: phony quick-sort-answer.exe
 
 build temp: phony temp.exe
 
@@ -424,7 +494,7 @@ build temp: phony temp.exe
 #############################################
 # Folder: D:/Freshman/cpl/homework/3-for-a-while/cmake-build-debug
 
-build all: phony palindrome-1.exe flip.exe temp.exe b-ternary-1.exe josephus.exe b-ternary-2.exe bubble-sort.exe decimal.exe palindrome-2.c.exe quick-sort.exe
+build all: phony palindrome-1.exe flip.exe temp.exe b-ternary-1.exe josephus.exe b-ternary-2.exe bubble-sort.exe decimal.exe palindrome-2.c.exe quick-sort.exe quick-sort-answer.exe josephus-answer.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

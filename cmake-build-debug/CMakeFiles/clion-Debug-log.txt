@@ -6,10 +6,10 @@ CMake Error at 3-for-a-while/CMakeLists.txt:3 (add_executable):
   documentation for policy CMP0002 for more details.
 
 
-CMake Error at CMakeLists.txt:9 (add_subdirectory):
+CMake Error at CMakeLists.txt:10 (add_subdirectory):
   The source directory
 
-    D:/Freshman/cpl/homework/4-loops
+    D:/Freshman/cpl/homework/5-function
 
   does not contain a CMakeLists.txt file.
 
