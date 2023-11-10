@@ -2,7 +2,6 @@
 // Created by Frank on 2023/10/31.
 //
 #include <stdio.h>
-#include <stdbool.h>
 
 void InputArray(int array[], int size);
 
@@ -55,10 +54,10 @@ int Binary_Search(const int array[], int size, int k) {
     int l = 0;
     int r = size - 1;
     int mid = 0;
-    while (l < r) {
+    while (l <= r) {
         mid = (l + r) / 2;
         if (array[mid] > k) {
-            r = mid - 1;
+            r = mid + 1;
         } else if (array[mid] < k) {
             l = mid + 1;
         } else {
@@ -68,10 +67,6 @@ int Binary_Search(const int array[], int size, int k) {
     if (k > array[l]) {
         return array[l];
     } else {
-        if (l) {
-            return array[l - 1];
-        } else {
-            return array[0];
-        }
+        return array[l - 1];
     }
 }

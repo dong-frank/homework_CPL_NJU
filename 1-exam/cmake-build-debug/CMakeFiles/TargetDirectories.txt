@@ -1,0 +1,4 @@
+D:/Freshman/cpl/homework/1-exam/cmake-build-debug/CMakeFiles/reverse.dir
+D:/Freshman/cpl/homework/1-exam/cmake-build-debug/CMakeFiles/tictactoe.dir
+D:/Freshman/cpl/homework/1-exam/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/1-exam/cmake-build-debug/CMakeFiles/rebuild_cache.dir

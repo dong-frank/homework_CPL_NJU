@@ -1,0 +1,5 @@
+# ninja log v5
+2	71	7208917942843812	CMakeFiles/reverse.dir/reverse.c.obj	e5d3c855e8952048
+72	169	7208917943776151	reverse.exe	aa32103d2afc4642
+0	103	7208955088846743	CMakeFiles/tictactoe.dir/tictactoe.c.obj	b80346bfe958fea
+103	225	7208955089966380	tictactoe.exe	941f11178b8c5cbd

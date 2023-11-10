@@ -42,6 +42,31 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/Freshman/cpl/homework/cmake-build-debug/1-types-io/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/2-if-for-array/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/3-for-a-while/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/4-loops/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/5-function/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/1-exam/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
