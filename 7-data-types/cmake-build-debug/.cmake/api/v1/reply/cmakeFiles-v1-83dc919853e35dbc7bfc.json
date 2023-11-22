@@ -18,6 +18,10 @@
 			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake"
 		},
 		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
+		},
+		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
@@ -102,29 +106,51 @@
 			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "1-types-io/CMakeLists.txt"
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
 		},
 		{
-			"path" : "2-if-for-array/CMakeLists.txt"
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
 		},
 		{
-			"path" : "3-for-a-while/CMakeLists.txt"
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
 		},
 		{
-			"path" : "4-loops/CMakeLists.txt"
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake"
 		},
 		{
-			"path" : "5-function/CMakeLists.txt"
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake"
 		},
 		{
-			"path" : "1-exam/CMakeLists.txt"
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/toolbox/apps/CLion/ch-0/232.9921.42/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Freshman/cpl/homework/cmake-build-debug",
-		"source" : "D:/Freshman/cpl/homework"
+		"build" : "D:/Freshman/cpl/homework/7-data-types/cmake-build-debug",
+		"source" : "D:/Freshman/cpl/homework/7-data-types"
 	},
 	"version" : 
 	{

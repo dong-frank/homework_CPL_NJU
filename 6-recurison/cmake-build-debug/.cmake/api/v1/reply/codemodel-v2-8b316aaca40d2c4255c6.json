@@ -1,0 +1,119 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "decomposition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-decomposition-Debug-1d9043a0bd0c5ad59f4d.json",
+					"name" : "decomposition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integration-Debug-6cc6330a2a01c800c0ab.json",
+					"name" : "integration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "max::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-max-Debug-a5ab0f3de323a71061a2.json",
+					"name" : "max",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "max_nre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-max_nre-Debug-9811386977bf405d0a06.json",
+					"name" : "max_nre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pascal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pascal-Debug-a143c620df384e098a9b.json",
+					"name" : "pascal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "poi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-poi-Debug-96e39af2a747eaa06933.json",
+					"name" : "poi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tiles::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tiles-Debug-a658328f37d252efc95f.json",
+					"name" : "tiles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-triangle-Debug-36576775265bb23a336a.json",
+					"name" : "triangle",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Freshman/cpl/homework/6-recurison/cmake-build-debug",
+		"source" : "D:/Freshman/cpl/homework/6-recurison"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

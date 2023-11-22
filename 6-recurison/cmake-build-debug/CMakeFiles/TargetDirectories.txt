@@ -1,0 +1,10 @@
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/poi.dir
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/pascal.dir
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/tiles.dir
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/max.dir
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/integration.dir
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/triangle.dir
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/max_nre.dir
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/decomposition.dir
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/6-recurison/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -52,3 +52,15 @@ D:/Freshman/cpl/homework/cmake-build-debug/1-exam/CMakeFiles/reverse.dir
 D:/Freshman/cpl/homework/cmake-build-debug/1-exam/CMakeFiles/tictactoe.dir
 D:/Freshman/cpl/homework/cmake-build-debug/1-exam/CMakeFiles/edit_cache.dir
 D:/Freshman/cpl/homework/cmake-build-debug/1-exam/CMakeFiles/rebuild_cache.dir
+D:/Freshman/cpl/homework/cmake-build-debug/6-recurison/CMakeFiles/poi.dir
+D:/Freshman/cpl/homework/cmake-build-debug/6-recurison/CMakeFiles/pascal.dir
+D:/Freshman/cpl/homework/cmake-build-debug/6-recurison/CMakeFiles/tiles.dir
+D:/Freshman/cpl/homework/cmake-build-debug/6-recurison/CMakeFiles/max.dir
+D:/Freshman/cpl/homework/cmake-build-debug/6-recurison/CMakeFiles/integration.dir
+D:/Freshman/cpl/homework/cmake-build-debug/6-recurison/CMakeFiles/triangle.dir
+D:/Freshman/cpl/homework/cmake-build-debug/6-recurison/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/cmake-build-debug/6-recurison/CMakeFiles/rebuild_cache.dir
+D:/Freshman/cpl/homework/cmake-build-debug/7-data-types/CMakeFiles/wine.dir
+D:/Freshman/cpl/homework/cmake-build-debug/7-data-types/CMakeFiles/stack.dir
+D:/Freshman/cpl/homework/cmake-build-debug/7-data-types/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/cmake-build-debug/7-data-types/CMakeFiles/rebuild_cache.dir
