@@ -1,0 +1,7 @@
+D:/Freshman/cpl/homework/9-pointers-c-strings/cmake-build-debug/CMakeFiles/strs_cat.dir
+D:/Freshman/cpl/homework/9-pointers-c-strings/cmake-build-debug/CMakeFiles/strs_interleaf.dir
+D:/Freshman/cpl/homework/9-pointers-c-strings/cmake-build-debug/CMakeFiles/parse.dir
+D:/Freshman/cpl/homework/9-pointers-c-strings/cmake-build-debug/CMakeFiles/tokenizer.dir
+D:/Freshman/cpl/homework/9-pointers-c-strings/cmake-build-debug/CMakeFiles/tokenizer_test.dir
+D:/Freshman/cpl/homework/9-pointers-c-strings/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/9-pointers-c-strings/cmake-build-debug/CMakeFiles/rebuild_cache.dir

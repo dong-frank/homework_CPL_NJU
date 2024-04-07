@@ -107,6 +107,39 @@ build stack.exe: C_EXECUTABLE_LINKER__stack_Debug CMakeFiles/stack.dir/stack.c.o
   TARGET_PDB = stack.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target stack_ans
+
+
+#############################################
+# Order-only phony target for stack_ans
+
+build cmake_object_order_depends_target_stack_ans: phony || CMakeFiles/stack_ans.dir
+
+build CMakeFiles/stack_ans.dir/stack_ans.c.obj: C_COMPILER__stack_ans_unscanned_Debug D$:/Freshman/cpl/homework/7-data-types/stack_ans.c || cmake_object_order_depends_target_stack_ans
+  DEP_FILE = CMakeFiles\stack_ans.dir\stack_ans.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\stack_ans.dir
+  OBJECT_FILE_DIR = CMakeFiles\stack_ans.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stack_ans
+
+
+#############################################
+# Link the executable stack_ans.exe
+
+build stack_ans.exe: C_EXECUTABLE_LINKER__stack_ans_Debug CMakeFiles/stack_ans.dir/stack_ans.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stack_ans.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stack_ans.exe
+  TARGET_IMPLIB = libstack_ans.dll.a
+  TARGET_PDB = stack_ans.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target brackets
 
 
@@ -139,6 +172,171 @@ build brackets.exe: C_EXECUTABLE_LINKER__brackets_Debug CMakeFiles/brackets.dir/
   TARGET_IMPLIB = libbrackets.dll.a
   TARGET_PDB = brackets.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target rotate
+
+
+#############################################
+# Order-only phony target for rotate
+
+build cmake_object_order_depends_target_rotate: phony || CMakeFiles/rotate.dir
+
+build CMakeFiles/rotate.dir/rotate.c.obj: C_COMPILER__rotate_unscanned_Debug D$:/Freshman/cpl/homework/7-data-types/rotate.c || cmake_object_order_depends_target_rotate
+  DEP_FILE = CMakeFiles\rotate.dir\rotate.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\rotate.dir
+  OBJECT_FILE_DIR = CMakeFiles\rotate.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target rotate
+
+
+#############################################
+# Link the executable rotate.exe
+
+build rotate.exe: C_EXECUTABLE_LINKER__rotate_Debug CMakeFiles/rotate.dir/rotate.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\rotate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = rotate.exe
+  TARGET_IMPLIB = librotate.dll.a
+  TARGET_PDB = rotate.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pour
+
+
+#############################################
+# Order-only phony target for pour
+
+build cmake_object_order_depends_target_pour: phony || CMakeFiles/pour.dir
+
+build CMakeFiles/pour.dir/pour.c.obj: C_COMPILER__pour_unscanned_Debug D$:/Freshman/cpl/homework/7-data-types/pour.c || cmake_object_order_depends_target_pour
+  DEP_FILE = CMakeFiles\pour.dir\pour.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pour.dir
+  OBJECT_FILE_DIR = CMakeFiles\pour.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pour
+
+
+#############################################
+# Link the executable pour.exe
+
+build pour.exe: C_EXECUTABLE_LINKER__pour_Debug CMakeFiles/pour.dir/pour.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pour.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pour.exe
+  TARGET_IMPLIB = libpour.dll.a
+  TARGET_PDB = pour.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target whac-a-mole
+
+
+#############################################
+# Order-only phony target for whac-a-mole
+
+build cmake_object_order_depends_target_whac-a-mole: phony || CMakeFiles/whac-a-mole.dir
+
+build CMakeFiles/whac-a-mole.dir/whac-a-mole.c.obj: C_COMPILER__whac-a-mole_unscanned_Debug D$:/Freshman/cpl/homework/7-data-types/whac-a-mole.c || cmake_object_order_depends_target_whac-a-mole
+  DEP_FILE = CMakeFiles\whac-a-mole.dir\whac-a-mole.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\whac-a-mole.dir
+  OBJECT_FILE_DIR = CMakeFiles\whac-a-mole.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target whac-a-mole
+
+
+#############################################
+# Link the executable whac-a-mole.exe
+
+build whac-a-mole.exe: C_EXECUTABLE_LINKER__whac-a-mole_Debug CMakeFiles/whac-a-mole.dir/whac-a-mole.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\whac-a-mole.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = whac-a-mole.exe
+  TARGET_IMPLIB = libwhac-a-mole.dll.a
+  TARGET_PDB = whac-a-mole.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target whac-a-mole-2
+
+
+#############################################
+# Order-only phony target for whac-a-mole-2
+
+build cmake_object_order_depends_target_whac-a-mole-2: phony || CMakeFiles/whac-a-mole-2.dir
+
+build CMakeFiles/whac-a-mole-2.dir/whac-a-mole-2.c.obj: C_COMPILER__whac-a-mole-2_unscanned_Debug D$:/Freshman/cpl/homework/7-data-types/whac-a-mole-2.c || cmake_object_order_depends_target_whac-a-mole-2
+  DEP_FILE = CMakeFiles\whac-a-mole-2.dir\whac-a-mole-2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\whac-a-mole-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\whac-a-mole-2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target whac-a-mole-2
+
+
+#############################################
+# Link the executable whac-a-mole-2.exe
+
+build whac-a-mole-2.exe: C_EXECUTABLE_LINKER__whac-a-mole-2_Debug CMakeFiles/whac-a-mole-2.dir/whac-a-mole-2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\whac-a-mole-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = whac-a-mole-2.exe
+  TARGET_IMPLIB = libwhac-a-mole-2.dll.a
+  TARGET_PDB = whac-a-mole-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target buddy
+
+
+#############################################
+# Order-only phony target for buddy
+
+build cmake_object_order_depends_target_buddy: phony || CMakeFiles/buddy.dir
+
+build CMakeFiles/buddy.dir/buddy.c.obj: C_COMPILER__buddy_unscanned_Debug D$:/Freshman/cpl/homework/7-data-types/buddy.c || cmake_object_order_depends_target_buddy
+  DEP_FILE = CMakeFiles\buddy.dir\buddy.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\buddy.dir
+  OBJECT_FILE_DIR = CMakeFiles\buddy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target buddy
+
+
+#############################################
+# Link the executable buddy.exe
+
+build buddy.exe: C_EXECUTABLE_LINKER__buddy_Debug CMakeFiles/buddy.dir/buddy.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\buddy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = buddy.exe
+  TARGET_IMPLIB = libbuddy.dll.a
+  TARGET_PDB = buddy.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -167,7 +365,19 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build brackets: phony brackets.exe
 
+build buddy: phony buddy.exe
+
+build pour: phony pour.exe
+
+build rotate: phony rotate.exe
+
 build stack: phony stack.exe
+
+build stack_ans: phony stack_ans.exe
+
+build whac-a-mole: phony whac-a-mole.exe
+
+build whac-a-mole-2: phony whac-a-mole-2.exe
 
 build wine: phony wine.exe
 
@@ -179,7 +389,7 @@ build wine: phony wine.exe
 #############################################
 # Folder: D:/Freshman/cpl/homework/7-data-types/cmake-build-debug
 
-build all: phony wine.exe stack.exe brackets.exe
+build all: phony wine.exe stack.exe stack_ans.exe brackets.exe rotate.exe pour.exe whac-a-mole.exe whac-a-mole-2.exe buddy.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

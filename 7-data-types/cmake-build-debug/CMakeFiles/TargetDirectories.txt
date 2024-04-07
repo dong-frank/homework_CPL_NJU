@@ -1,5 +1,11 @@
 D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/wine.dir
 D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/stack.dir
+D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/stack_ans.dir
 D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/brackets.dir
+D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/rotate.dir
+D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/pour.dir
+D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/whac-a-mole.dir
+D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/whac-a-mole-2.dir
+D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/buddy.dir
 D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/Freshman/cpl/homework/7-data-types/cmake-build-debug/CMakeFiles/rebuild_cache.dir

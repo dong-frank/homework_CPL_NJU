@@ -173,6 +173,39 @@ build max.exe: C_EXECUTABLE_LINKER__max_Debug CMakeFiles/max.dir/max.c.obj
   TARGET_PDB = max.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target max_ans
+
+
+#############################################
+# Order-only phony target for max_ans
+
+build cmake_object_order_depends_target_max_ans: phony || CMakeFiles/max_ans.dir
+
+build CMakeFiles/max_ans.dir/max_ans.c.obj: C_COMPILER__max_ans_unscanned_Debug D$:/Freshman/cpl/homework/6-recurison/max_ans.c || cmake_object_order_depends_target_max_ans
+  DEP_FILE = CMakeFiles\max_ans.dir\max_ans.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\max_ans.dir
+  OBJECT_FILE_DIR = CMakeFiles\max_ans.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target max_ans
+
+
+#############################################
+# Link the executable max_ans.exe
+
+build max_ans.exe: C_EXECUTABLE_LINKER__max_ans_Debug CMakeFiles/max_ans.dir/max_ans.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\max_ans.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = max_ans.exe
+  TARGET_IMPLIB = libmax_ans.dll.a
+  TARGET_PDB = max_ans.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target integration
 
 
@@ -336,6 +369,8 @@ build integration: phony integration.exe
 
 build max: phony max.exe
 
+build max_ans: phony max_ans.exe
+
 build max_nre: phony max_nre.exe
 
 build pascal: phony pascal.exe
@@ -354,7 +389,7 @@ build triangle: phony triangle.exe
 #############################################
 # Folder: D:/Freshman/cpl/homework/6-recurison/cmake-build-debug
 
-build all: phony poi.exe pascal.exe tiles.exe max.exe integration.exe triangle.exe max_nre.exe decomposition.exe
+build all: phony poi.exe pascal.exe tiles.exe max.exe max_ans.exe integration.exe triangle.exe max_nre.exe decomposition.exe
 
 # =============================================================================
 # Unknown Build Time Dependencies.

@@ -1,0 +1,6 @@
+D:/Freshman/cpl/homework/2021-exam/cmake-build-debug/CMakeFiles/1.dir
+D:/Freshman/cpl/homework/2021-exam/cmake-build-debug/CMakeFiles/2.dir
+D:/Freshman/cpl/homework/2021-exam/cmake-build-debug/CMakeFiles/3.dir
+D:/Freshman/cpl/homework/2021-exam/cmake-build-debug/CMakeFiles/4.dir
+D:/Freshman/cpl/homework/2021-exam/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/2021-exam/cmake-build-debug/CMakeFiles/rebuild_cache.dir

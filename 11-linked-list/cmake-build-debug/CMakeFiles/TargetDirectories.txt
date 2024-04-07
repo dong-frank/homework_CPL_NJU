@@ -1,0 +1,4 @@
+D:/Freshman/cpl/homework/11-linked-list/cmake-build-debug/CMakeFiles/stack-pour.dir
+D:/Freshman/cpl/homework/11-linked-list/cmake-build-debug/CMakeFiles/keyboard.dir
+D:/Freshman/cpl/homework/11-linked-list/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/11-linked-list/cmake-build-debug/CMakeFiles/rebuild_cache.dir

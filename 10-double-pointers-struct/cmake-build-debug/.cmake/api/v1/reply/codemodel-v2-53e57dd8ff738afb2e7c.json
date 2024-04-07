@@ -1,0 +1,101 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bsearch::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bsearch-Debug-8a56f1114ed3a7138fcd.json",
+					"name" : "bsearch",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fifa::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fifa-Debug-6905e3c760472adcafc1.json",
+					"name" : "fifa",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "fifa_struct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fifa_struct-Debug-c6298d333af8d84dd2f0.json",
+					"name" : "fifa_struct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "polynlist::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-polynlist-Debug-7006fc27016327c28375.json",
+					"name" : "polynlist",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "split-sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-split-sort-Debug-1e08b6efe419e4210de1.json",
+					"name" : "split-sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "temp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-temp-Debug-442bff9b42ab5b121b26.json",
+					"name" : "temp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Freshman/cpl/homework/10-double-pointers-struct/cmake-build-debug",
+		"source" : "D:/Freshman/cpl/homework/10-double-pointers-struct"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

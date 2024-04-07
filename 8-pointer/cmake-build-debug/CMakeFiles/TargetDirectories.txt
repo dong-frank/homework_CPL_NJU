@@ -1,0 +1,5 @@
+D:/Freshman/cpl/homework/8-pointer/cmake-build-debug/CMakeFiles/interpreter.dir
+D:/Freshman/cpl/homework/8-pointer/cmake-build-debug/CMakeFiles/substr.dir
+D:/Freshman/cpl/homework/8-pointer/cmake-build-debug/CMakeFiles/title.dir
+D:/Freshman/cpl/homework/8-pointer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/8-pointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

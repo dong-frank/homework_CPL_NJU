@@ -1,0 +1,1 @@
+add_executable(coded-lock coded-lock.c)

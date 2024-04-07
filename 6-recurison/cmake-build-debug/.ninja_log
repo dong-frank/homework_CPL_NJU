@@ -3,6 +3,7 @@
 1	41	7215462041533110	CMakeFiles/poi.dir/poi.c.obj	a2e5f0c47e86fa1
 43	117	7215472451976811	pascal.exe	54e51d6a151c7251
 41	89	7215462041994345	poi.exe	2264a4bd43ca399f
+2	66	7223419969567916	CMakeFiles/decomposition.dir/decomposition.c.obj	9ddbadb82569ce84
 73	153	7217370029424406	tiles.exe	d8540fce647b6e4
 1	42	7215472451261307	CMakeFiles/pascal.dir/pascal.c.obj	24e162a93ae76aac
 2	72	7217370028652658	CMakeFiles/tiles.dir/tiles.c.obj	26d15a8d6c04997f
@@ -13,7 +14,8 @@
 2	97	7222734288012494	CMakeFiles/max.dir/max.c.obj	fe4acdc799b01b9
 3	72	7223410562058820	CMakeFiles/max_nre.dir/max_nre.c.obj	4258f70d702b3782
 72	152	7223410562810008	max_nre.exe	73d1f30c308d3cf5
-0	87	7223419845958327	CMakeFiles/decomposition.dir/decomposition.c.obj	9ddbadb82569ce84
-87	202	7223419847055357	decomposition.exe	43c5df458a16969a
-2	66	7223419969567916	CMakeFiles/decomposition.dir/decomposition.c.obj	9ddbadb82569ce84
 66	142	7223419970288092	decomposition.exe	43c5df458a16969a
+0	48	7237477187053366	CMakeFiles/max_ans.dir/max_ans.c.obj	42edd94846d48ecf
+48	105	7237477187583751	max_ans.exe	568712e8df71b995
+1	53	7237478399327788	CMakeFiles/max_ans.dir/max_ans.c.obj	42edd94846d48ecf
+53	108	7237478399845162	max_ans.exe	568712e8df71b995

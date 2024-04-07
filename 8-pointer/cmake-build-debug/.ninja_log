@@ -1,0 +1,11 @@
+# ninja log v5
+3	66	7229487265374529	CMakeFiles/interpreter.dir/interpreter.c.obj	cbdecef584d1c4c7
+66	143	7229487266103538	interpreter.exe	1237a3510f1a374a
+94	196	7232112932550261	title.exe	dd80bf07b14b4cc0
+3	103	7232100661297061	CMakeFiles/substr.dir/substr.c.obj	489e96abcaec8807
+104	213	7232100662334678	substr.exe	3e3ed3504d1b475f
+3	93	7232112931582430	CMakeFiles/title.dir/title.c.obj	59d87e4a154bf478
+1	46	7237457868329198	CMakeFiles/interpreter.dir/interpreter.c.obj	cbdecef584d1c4c7
+46	98	7237457868820096	interpreter.exe	1237a3510f1a374a
+1	47	7237458175526787	CMakeFiles/interpreter.dir/interpreter.c.obj	cbdecef584d1c4c7
+47	104	7237458176080649	interpreter.exe	1237a3510f1a374a

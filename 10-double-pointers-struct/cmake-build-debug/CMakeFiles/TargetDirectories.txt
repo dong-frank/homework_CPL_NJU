@@ -1,0 +1,8 @@
+D:/Freshman/cpl/homework/10-double-pointers-struct/cmake-build-debug/CMakeFiles/bsearch.dir
+D:/Freshman/cpl/homework/10-double-pointers-struct/cmake-build-debug/CMakeFiles/split-sort.dir
+D:/Freshman/cpl/homework/10-double-pointers-struct/cmake-build-debug/CMakeFiles/temp.dir
+D:/Freshman/cpl/homework/10-double-pointers-struct/cmake-build-debug/CMakeFiles/fifa.dir
+D:/Freshman/cpl/homework/10-double-pointers-struct/cmake-build-debug/CMakeFiles/fifa_struct.dir
+D:/Freshman/cpl/homework/10-double-pointers-struct/cmake-build-debug/CMakeFiles/polynlist.dir
+D:/Freshman/cpl/homework/10-double-pointers-struct/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Freshman/cpl/homework/10-double-pointers-struct/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -64,17 +64,37 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/Freshman/cpl/homework/cmake-build-debug/1-exam/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("D:/Freshman/cpl/homework/cmake-build-debug/6-recurison/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("D:/Freshman/cpl/homework/cmake-build-debug/7-data-types/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/8-pointer/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/9-pointers-c-strings/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/10-double-pointers-struct/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/1-exam/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Freshman/cpl/homework/cmake-build-debug/2-exam/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

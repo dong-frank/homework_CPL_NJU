@@ -1,0 +1,27 @@
+# ninja log v5
+1	44	7233626457845030	CMakeFiles/strs_cat.dir/strs_cat.c.obj	d3e1f1ce89624007
+44	93	7233626458301790	strs_cat.exe	a7f7a6a635d1cd4c
+76	157	7234724521316502	strs_interleaf.exe	44cef4b26ad6e0e8
+45	91	7235578464595946	parse.exe	35fec4c037794c65
+2	76	7234724520540709	CMakeFiles/strs_interleaf.dir/strs_interleaf.c.obj	6b8c65daf0472047
+85	305	7239989673672224	tokenizer.exe	93180be172b2d0f3
+1	45	7235578464162613	CMakeFiles/parse.dir/parse.c.obj	1bc7f9f2fd4436da
+2	85	7239989671514936	CMakeFiles/tokenizer.dir/tokenizer.c.obj	90d176fa6afe3fda
+2	92	7240001740665645	CMakeFiles/tokenizer.dir/tokenizer.c.obj	90d176fa6afe3fda
+92	175	7240001741463965	tokenizer.exe	93180be172b2d0f3
+0	86	7240002186926145	CMakeFiles/tokenizer_test.dir/tokenizer_test.c.obj	5ad38b1203a16b37
+87	174	7240002187721038	tokenizer_test.exe	c9443988b6ab3dd6
+2	212	7241342052302782	CMakeFiles/tokenizer_test.dir/tokenizer_test.c.obj	5ad38b1203a16b37
+212	420	7241342054363069	tokenizer_test.exe	c9443988b6ab3dd6
+1	58	7241349009261338	CMakeFiles/tokenizer_test.dir/tokenizer_test.c.obj	5ad38b1203a16b37
+58	113	7241349009776383	tokenizer_test.exe	c9443988b6ab3dd6
+2	63	7241356794480219	CMakeFiles/tokenizer_test.dir/tokenizer_test.c.obj	5ad38b1203a16b37
+63	116	7241356794990639	tokenizer_test.exe	c9443988b6ab3dd6
+1	54	7241358197543874	CMakeFiles/tokenizer_test.dir/tokenizer_test.c.obj	5ad38b1203a16b37
+54	105	7241358198028984	tokenizer_test.exe	c9443988b6ab3dd6
+3	107	7241411233732632	CMakeFiles/tokenizer_test.dir/tokenizer_test.c.obj	5ad38b1203a16b37
+107	192	7241411234537794	tokenizer_test.exe	c9443988b6ab3dd6
+2	88	7241415354625063	CMakeFiles/tokenizer_test.dir/tokenizer_test.c.obj	5ad38b1203a16b37
+88	175	7241415355444816	tokenizer_test.exe	c9443988b6ab3dd6
+3	114	7241425166251836	CMakeFiles/tokenizer_test.dir/tokenizer_test.c.obj	5ad38b1203a16b37
+114	227	7241425167338439	tokenizer_test.exe	c9443988b6ab3dd6
